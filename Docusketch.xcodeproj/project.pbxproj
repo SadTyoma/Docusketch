@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		9A9304E52A5F0B38000B5C7A /* DocusketchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304E42A5F0B38000B5C7A /* DocusketchApp.swift */; };
-		9A9304E72A5F0B38000B5C7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304E62A5F0B38000B5C7A /* ContentView.swift */; };
+		9A9304E72A5F0B38000B5C7A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304E62A5F0B38000B5C7A /* MainView.swift */; };
 		9A9304E92A5F0B39000B5C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9304E82A5F0B39000B5C7A /* Assets.xcassets */; };
 		9A9304EC2A5F0B39000B5C7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9304EB2A5F0B39000B5C7A /* Preview Assets.xcassets */; };
+		9A9304F32A5F0B86000B5C7A /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304F22A5F0B86000B5C7A /* ToDoListItemView.swift */; };
+		9A9304F52A5F0BBA000B5C7A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304F42A5F0BBA000B5C7A /* MainViewModel.swift */; };
+		9A9304F72A5F0BC9000B5C7A /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304F62A5F0BC9000B5C7A /* ToDoListItemViewModel.swift */; };
+		9A9304F92A5F0DD5000B5C7A /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304F82A5F0DD5000B5C7A /* NewItemView.swift */; };
+		9A9304FB2A5F0DE2000B5C7A /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9304FA2A5F0DE2000B5C7A /* NewItemViewModel.swift */; };
+		9A9305012A5F13B3000B5C7A /* Date+getDateFor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9305002A5F13B3000B5C7A /* Date+getDateFor.swift */; };
+		9A9305042A5F21C1000B5C7A /* ToDoItemModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A9305022A5F21C1000B5C7A /* ToDoItemModel.xcdatamodeld */; };
+		9A9305092A5F2876000B5C7A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9305082A5F2876000B5C7A /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A9304E12A5F0B38000B5C7A /* Docusketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Docusketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A9304E42A5F0B38000B5C7A /* DocusketchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocusketchApp.swift; sourceTree = "<group>"; };
-		9A9304E62A5F0B38000B5C7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A9304E62A5F0B38000B5C7A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		9A9304E82A5F0B39000B5C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A9304EB2A5F0B39000B5C7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A9304F22A5F0B86000B5C7A /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		9A9304F42A5F0BBA000B5C7A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9A9304F62A5F0BC9000B5C7A /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		9A9304F82A5F0DD5000B5C7A /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		9A9304FA2A5F0DE2000B5C7A /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
+		9A9305002A5F13B3000B5C7A /* Date+getDateFor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+getDateFor.swift"; sourceTree = "<group>"; };
+		9A9305032A5F21C1000B5C7A /* ToDoItemModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoItemModel.xcdatamodel; sourceTree = "<group>"; };
+		9A9305082A5F2876000B5C7A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +67,15 @@
 		9A9304E32A5F0B38000B5C7A /* Docusketch */ = {
 			isa = PBXGroup;
 			children = (
+				9A9305072A5F2820000B5C7A /* Utils */,
+				9A9304FF2A5F1396000B5C7A /* Extensions */,
+				9A9304FE2A5F0E19000B5C7A /* ToDoItem */,
+				9A9304FD2A5F0E06000B5C7A /* NewItem */,
+				9A9304FC2A5F0DF7000B5C7A /* Main */,
 				9A9304E42A5F0B38000B5C7A /* DocusketchApp.swift */,
-				9A9304E62A5F0B38000B5C7A /* ContentView.swift */,
 				9A9304E82A5F0B39000B5C7A /* Assets.xcassets */,
 				9A9304EA2A5F0B39000B5C7A /* Preview Content */,
+				9A9305022A5F21C1000B5C7A /* ToDoItemModel.xcdatamodeld */,
 			);
 			path = Docusketch;
 			sourceTree = "<group>";
@@ -65,6 +86,49 @@
 				9A9304EB2A5F0B39000B5C7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A9304FC2A5F0DF7000B5C7A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9A9304E62A5F0B38000B5C7A /* MainView.swift */,
+				9A9304F42A5F0BBA000B5C7A /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9A9304FD2A5F0E06000B5C7A /* NewItem */ = {
+			isa = PBXGroup;
+			children = (
+				9A9304F82A5F0DD5000B5C7A /* NewItemView.swift */,
+				9A9304FA2A5F0DE2000B5C7A /* NewItemViewModel.swift */,
+			);
+			path = NewItem;
+			sourceTree = "<group>";
+		};
+		9A9304FE2A5F0E19000B5C7A /* ToDoItem */ = {
+			isa = PBXGroup;
+			children = (
+				9A9304F22A5F0B86000B5C7A /* ToDoListItemView.swift */,
+				9A9304F62A5F0BC9000B5C7A /* ToDoListItemViewModel.swift */,
+			);
+			path = ToDoItem;
+			sourceTree = "<group>";
+		};
+		9A9304FF2A5F1396000B5C7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A9305002A5F13B3000B5C7A /* Date+getDateFor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A9305072A5F2820000B5C7A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A9305082A5F2876000B5C7A /* DataManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9304E72A5F0B38000B5C7A /* ContentView.swift in Sources */,
+				9A9304F92A5F0DD5000B5C7A /* NewItemView.swift in Sources */,
+				9A9304FB2A5F0DE2000B5C7A /* NewItemViewModel.swift in Sources */,
+				9A9305042A5F21C1000B5C7A /* ToDoItemModel.xcdatamodeld in Sources */,
+				9A9304F72A5F0BC9000B5C7A /* ToDoListItemViewModel.swift in Sources */,
+				9A9304E72A5F0B38000B5C7A /* MainView.swift in Sources */,
+				9A9304F32A5F0B86000B5C7A /* ToDoListItemView.swift in Sources */,
 				9A9304E52A5F0B38000B5C7A /* DocusketchApp.swift in Sources */,
+				9A9305092A5F2876000B5C7A /* DataManager.swift in Sources */,
+				9A9305012A5F13B3000B5C7A /* Date+getDateFor.swift in Sources */,
+				9A9304F52A5F0BBA000B5C7A /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +411,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A9305022A5F21C1000B5C7A /* ToDoItemModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A9305032A5F21C1000B5C7A /* ToDoItemModel.xcdatamodel */,
+			);
+			currentVersion = 9A9305032A5F21C1000B5C7A /* ToDoItemModel.xcdatamodel */;
+			path = ToDoItemModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9A9304D92A5F0B38000B5C7A /* Project object */;
 }

@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct DocusketchApp: App {
+    @StateObject private var dataManager = DataManager.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .environment(\.managedObjectContext, dataManager.persistentContainer.viewContext)
         }
     }
 }
